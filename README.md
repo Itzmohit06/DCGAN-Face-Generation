@@ -17,6 +17,16 @@ The implementation is based on the official PyTorch DCGAN tutorial.
 - **Monitoring:** Generator and Discriminator losses are plotted to follow training progress.
 - **Generated samples:** The notebook displays images produced at epoch 69.
 
+## Results
+
+### Generator and Discriminator Losses
+
+![Generator and Discriminator losses during training](assets/loss-graph.png)
+
+### Generated Faces After 69 Epochs
+
+![Synthetic face samples generated after 69 epochs](assets/epoch-069.png)
+
 ## Key Learnings
 
 This project provided hands-on experience with adversarial training, Generator–Discriminator dynamics, and the challenges of stabilizing GAN training.
@@ -40,6 +50,9 @@ DCGAN-Face-Generation/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── assets/
+│   ├── loss-graph.png
+│   └── epoch-069.png
 ├── models/
 ├── outputs/
 └── checkpoints/
